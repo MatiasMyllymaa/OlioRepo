@@ -1,36 +1,36 @@
-﻿string karkitilaus = "a";
-string peratilaus = "b";
-int pituustilaus = 0;
+﻿string kärki = "a";
+string perä = "b";
+int pituus = 0;
 string haluttupituus;
 
 Console.WriteLine("Minkälainen kärki (puu, teräs, timantti) :");
-while (karkitilaus != "puu" || karkitilaus != "teräs" || karkitilaus != "timantti")
+while (kärki != "puu" || kärki != "teräs" || kärki != "timantti")
 {
-    karkitilaus = Console.ReadLine();
-    if (karkitilaus == "puu" || karkitilaus == "timantti" || karkitilaus == "teräs")
+    kärki = Console.ReadLine();
+    if (kärki == "puu" || kärki == "timantti" || kärki == "teräs")
     {
         break;
     }
 }
 Console.WriteLine("Minkälainen perä (lehti, kanansulka, kotkansulka) :");
-while (peratilaus != "lehti" || peratilaus != "kanansulka" || peratilaus != "kotkansulka")
+while (perä != "lehti" || perä != "kanansulka" || perä != "kotkansulka")
 {
-    peratilaus = Console.ReadLine();
-    if (peratilaus == "lehti" || peratilaus == "kanansulka" || peratilaus == "kotkansulka")
+    perä = Console.ReadLine();
+    if (perä == "lehti" || perä == "kanansulka" || perä == "kotkansulka")
     {
         break;
     }
 }
 Console.WriteLine("Nuolen pituus (60-100cm) :");
-while (pituustilaus < 60 || pituustilaus > 100)
+while (pituus < 60 || pituus > 100)
 {
     haluttupituus = Console.ReadLine();
-    if (int.TryParse(haluttupituus, out pituustilaus) == true && pituustilaus < 100 && pituustilaus > 60)
+    if (int.TryParse(haluttupituus, out pituus) == true && pituus < 100 && pituus > 60)
     {
         break;
     }
 }
-Nuoli tilattuNuoli = new Nuoli(karkitilaus, peratilaus, pituustilaus);
+Nuoli tilattuNuoli = new Nuoli(kärki, perä, pituus);
 Console.WriteLine("Nuoli maksaa " + tilattuNuoli.PalautaHinta() + " kultaa");
 
 
@@ -75,11 +75,11 @@ public class Nuoli
     {
         return nuolenhinta;
     }
-    public string Karki()
+    public string Kärki()
     {
         return _karki;
     }
-    public string Pera()
+    public string Perä()
     {
         return _pera;
     }
