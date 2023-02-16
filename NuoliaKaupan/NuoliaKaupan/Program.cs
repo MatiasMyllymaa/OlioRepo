@@ -24,9 +24,13 @@ while (perä != "lehti" || perä != "kanansulka" || perä != "kotkansulka")
 Console.WriteLine("Nuolen pituus (60-100cm) :");
 while (pituus < 60 || pituus > 100)
 {
+    Console.WriteLine("Ollaan while-loopissa");
+
     haluttupituus = Console.ReadLine();
-    if (int.TryParse(haluttupituus, out pituus) == true && pituus < 100 && pituus > 60)
+    if (int.TryParse(haluttupituus, out pituus) == true && pituus <= 100 && pituus >= 60)
     {
+        Console.WriteLine("Ollaan if-lausessa");
+        pituus = Convert.ToInt32(haluttupituus);
         break;
     }
 }
@@ -44,9 +48,10 @@ public class Nuoli
 
     public Nuoli(string karki, string pera, int pituus)
     {
+        nuolenhinta = 0.0;
         _karki = karki;
         _pera = pera;
-        _pituus = pituus;
+        _pituus = (double)pituus;
         if (_karki == "puu")
         {
             nuolenhinta += 3;
@@ -63,11 +68,11 @@ public class Nuoli
         {
             nuolenhinta += 1;
         }
-        if (karki == "kotkansulka")
+        if (_pera == "kotkansulka")
         {
             nuolenhinta += 5;
         }
-        nuolenhinta = nuolenhinta + _pituus * 0.05;
+        nuolenhinta = nuolenhinta + (_pituus * 0.05);
         return;
     }
 
