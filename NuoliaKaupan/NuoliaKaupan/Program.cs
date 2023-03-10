@@ -1,41 +1,79 @@
-﻿string kärki = "a";
-string perä = "b";
-int pituus = 0;
+﻿string karkitilaus = "a";
+string peratilaus = "b";
+int pituustilaus = 0;
 string haluttupituus;
+string pre;
 
-Console.WriteLine("Minkälainen kärki (puu, teräs, timantti) :");
-while (kärki != "puu" || kärki != "teräs" || kärki != "timantti")
+Console.WriteLine("Teetkö valmiin nuolen vai oman? (v = valmis, o = oma)");
+while (true)
 {
-    kärki = Console.ReadLine();
-    if (kärki == "puu" || kärki == "timantti" || kärki == "teräs")
+    pre = Console.ReadLine();
+    if (pre == "v" || pre == "o")
     {
         break;
     }
 }
-Console.WriteLine("Minkälainen perä (lehti, kanansulka, kotkansulka) :");
-while (perä != "lehti" || perä != "kanansulka" || perä != "kotkansulka")
+
+Nuoli tilattuNuoli;
+if (pre == "v")
 {
-    perä = Console.ReadLine();
-    if (perä == "lehti" || perä == "kanansulka" || perä == "kotkansulka")
+    Console.WriteLine("Valitse nuolen tyyppi (1 = aloittelijanuoli, 2 = perusnuoli, 3 = eliitti nuoli)");
+    while (true)
     {
-        break;
+        string valittuNuoli = Console.ReadLine();
+        if (valittuNuoli == "1")
+        {
+            tilattuNuoli = Nuoli.LuoAloittelijanuoli();
+            Console.WriteLine("Nuolessa on puu kärki, kanansulka perä sekä se on 70cm pitkä");
+            break;
+        }
+        else if (valittuNuoli == "2")
+        {
+            tilattuNuoli = Nuoli.LuoPerusnuoli();
+            Console.WriteLine("Nuolessa on teräs kärki, kanansulka perä sekä se on 85cm pitkä");
+            break;
+        }
+        else if (valittuNuoli == "3")
+        {
+            tilattuNuoli = Nuoli.LuoEliittiNuoli();
+            Console.WriteLine("Nuolessa on timantti kärki, kotkansulka perä sekä se on 100cm pitkä");
+            break;
+        }
     }
 }
-Console.WriteLine("Nuolen pituus (60-100cm) :");
-while (pituus < 60 || pituus > 100)
+else
 {
-    haluttupituus = Console.ReadLine();
-    if (int.TryParse(haluttupituus, out pituus) == true && pituus <= 100 && pituus >= 60)
+    Console.WriteLine("Minkälainen kärki (puu, teräs, timantti) :");
+    while (karkitilaus != "puu" || karkitilaus != "teräs" || karkitilaus != "timantti")
     {
-        
-        pituus = Convert.ToInt32(haluttupituus);
-        break;
+        karkitilaus = Console.ReadLine();
+        if (karkitilaus == "puu" || karkitilaus == "timantti" || karkitilaus == "teräs")
+        {
+            break;
+        }
     }
+    Console.WriteLine("Minkälainen perä (lehti, kanansulka, kotkansulka) :");
+    while (peratilaus != "lehti" || peratilaus != "kanansulka" || peratilaus != "kotkansulka")
+    {
+        peratilaus = Console.ReadLine();
+        if (peratilaus == "lehti" || peratilaus == "kanansulka" || peratilaus == "kotkansulka")
+        {
+            break;
+        }
+    }
+    Console.WriteLine("Nuolen pituus (60-100cm) :");
+    while (pituustilaus < 60 || pituustilaus > 100)
+    {
+        haluttupituus = Console.ReadLine();
+        if (int.TryParse(haluttupituus, out pituustilaus) == true && pituustilaus < 100 && pituustilaus > 60)
+        {
+            break;
+        }
+    }
+    tilattuNuoli = new Nuoli(karkitilaus, peratilaus, pituustilaus);
 }
-Nuoli tilattuNuoli = new Nuoli(kärki, perä, pituus);
+
 Console.WriteLine("Nuoli maksaa " + tilattuNuoli.PalautaHinta + " kultaa");
-
-
 
 public class Nuoli
 {
@@ -46,7 +84,7 @@ public class Nuoli
 
     public Nuoli(string karki, string pera, int pituus)
     {
-        _karki= karki;
+        _karki = karki;
         _pera = pera;
         _pituus = pituus;
         if (_karki == "puu")
@@ -69,8 +107,20 @@ public class Nuoli
         {
             nuolenhinta += 5;
         }
-        nuolenhinta = nuolenhinta + (_pituus * 0.05);
+        nuolenhinta = nuolenhinta + _pituus * 0.05;
         return;
+    }
+    public static Nuoli LuoEliittiNuoli()
+    {
+        return new Nuoli("timantti", "kotkansulka", 100);
+    }
+    public static Nuoli LuoAloittelijanuoli()
+    {
+        return new Nuoli("puu", "kanansulka", 70);
+    }
+    public static Nuoli LuoPerusnuoli()
+    {
+        return new Nuoli("teräs", "kanansulka", 85);
     }
 
     public double PalautaHinta
@@ -78,12 +128,12 @@ public class Nuoli
         get { return nuolenhinta; }
         set { nuolenhinta = value; }
     }
-    public string Kärki
+    public string Karki
     {
         get { return _karki; }
         set { _karki = value; }
     }
-    public string Perä
+    public string Pera
     {
         get { return _pera; }
         set { _pera = value; }
