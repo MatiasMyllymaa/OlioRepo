@@ -1,0 +1,15 @@
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\bin\Debug\net6.0\Reppupeli.exe
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\bin\Debug\net6.0\Reppupeli.deps.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\bin\Debug\net6.0\Reppupeli.runtimeconfig.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\bin\Debug\net6.0\Reppupeli.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\bin\Debug\net6.0\Reppupeli.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.csproj.AssemblyReference.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.AssemblyInfoInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.AssemblyInfo.cs
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.csproj.CoreCompileInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\refint\Reppupeli.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\Reppupeli.genruntimeconfig.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Reppupeli\Reppupeli\obj\Debug\net6.0\ref\Reppupeli.dll
