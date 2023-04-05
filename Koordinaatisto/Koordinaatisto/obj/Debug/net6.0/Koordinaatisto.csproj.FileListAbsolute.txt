@@ -1,0 +1,15 @@
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.csproj.AssemblyReference.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.AssemblyInfoInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.AssemblyInfo.cs
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.csproj.CoreCompileInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\bin\Debug\net6.0\Koordinaatisto.exe
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\bin\Debug\net6.0\Koordinaatisto.deps.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\bin\Debug\net6.0\Koordinaatisto.runtimeconfig.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\bin\Debug\net6.0\Koordinaatisto.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\bin\Debug\net6.0\Koordinaatisto.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\refint\Koordinaatisto.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\Koordinaatisto.genruntimeconfig.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Koordinaatisto\Koordinaatisto\obj\Debug\net6.0\ref\Koordinaatisto.dll
