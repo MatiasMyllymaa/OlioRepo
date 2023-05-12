@@ -1,0 +1,15 @@
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\bin\Debug\net6.0\Harjoitusprojekti.exe
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\bin\Debug\net6.0\Harjoitusprojekti.deps.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\bin\Debug\net6.0\Harjoitusprojekti.runtimeconfig.json
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\bin\Debug\net6.0\Harjoitusprojekti.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\bin\Debug\net6.0\Harjoitusprojekti.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.csproj.AssemblyReference.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.AssemblyInfoInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.AssemblyInfo.cs
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.csproj.CoreCompileInputs.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\refint\Harjoitusprojekti.dll
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.pdb
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\Harjoitusprojekti.genruntimeconfig.cache
+C:\Users\s2101032\OneDrive - Business College Helsinki\Tiedostot\OlioRepo\Harjoitusprojekti\Harjoitusprojekti\obj\Debug\net6.0\ref\Harjoitusprojekti.dll
